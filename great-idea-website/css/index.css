@@ -73,18 +73,36 @@ body{
 /* Header Styles */
 nav {
 	text-align: center;
+	margin: 2%;
 }
 
 nav a {
 	text-decoration: none;
 	color: lightgray;
-	margin: 2%;
+	margin: 0 5%;
 }
 
 h1 {
 	font-family: "Bangers", sans-serif;
-	display: inline-block;
-	
+	font-size: 72px;
+	display: inline-block;	
+	padding: 0 15% 0 0;
+	margin: 1%;
+}
+
+.header-img {
+
+}
+
+button {
+	display: block;
+	background-color: transparent;
+	border: 1px solid black;
+	margin: auto; 
+	width: 150px;
+	height: 40px;
+	font-size: 16px;
+	letter-spacing: 1px;
 }
 
 h2 {
@@ -93,9 +111,8 @@ h2 {
 }
 
 header {
-	display: inline-block;
-	text-align: center;
-	margin: 5% 30%;
+	text-align: center; 
+	margin:5% 0%;
 }
 
 /* Main Content */
