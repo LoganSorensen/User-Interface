@@ -65,6 +65,61 @@ h1, h2, h3, h4, h5 {
 }
 }
 /* Your code starts here! */
-* {
-	color: red;
+
+body{
+	font-family: "Titillium", sans-serif;
 }
+
+/* Header Styles */
+nav {
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgray;
+	margin: 2%;
+}
+
+h1 {
+	font-family: "Bangers", sans-serif;
+	display: inline-block;
+	
+}
+
+h2 {
+	font-family: "Bangers", sans-serif;
+	display: inline-block;
+}
+
+header {
+	display: inline-block;
+	text-align: center;
+	margin: 5% 30%;
+}
+
+/* Main Content */
+
+.box {
+	display: inline-block;
+	width: 25%;
+	margin: 0 3%;
+}
+
+.topContent {
+	margin: 0 5%;
+}
+
+.middle-img {
+	display: block;
+	margin: 5% 25%;
+}
+
+.bottomContent {
+	
+}
+
+
+
+/* Footer Styles */
+
