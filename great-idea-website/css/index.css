@@ -68,12 +68,19 @@ h1, h2, h3, h4, h5 {
 
 body{
 	font-family: "Titillium", sans-serif;
+	padding: 0 200px;
+	margin-top: 0px;
 }
 
 /* Header Styles */
 nav {
 	text-align: center;
-	margin: 2%;
+	margin: 0 2%;
+	position: sticky;
+	top: 0;
+	background-color: gray;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
 nav a {
@@ -82,61 +89,98 @@ nav a {
 	margin: 0 5%;
 }
 
+nav a:hover {
+	color: black;
+}
+
 h1 {
 	font-family: "Bangers", sans-serif;
 	font-size: 72px;
 	display: inline-block;	
 	padding: 0 15% 0 0;
 	margin: 1%;
-}
-
-.header-img {
-
+	letter-spacing: 2.8px;
 }
 
 button {
 	display: block;
 	background-color: transparent;
 	border: 1px solid black;
-	margin: auto; 
+	margin: 7% auto; 
 	width: 150px;
-	height: 40px;
+	height: 33px;
 	font-size: 16px;
 	letter-spacing: 1px;
+	box-shadow: 0 9px lightgray;
+}
+
+button:hover {
+	background-color: lightblue;
+}
+
+button:active {
+	box-shadow: 0 5px gray;
+	transform: translateY(4px);
 }
 
 h2 {
 	font-family: "Bangers", sans-serif;
 	display: inline-block;
+	margin: 10% 0 0 0;
 }
 
 header {
 	text-align: center; 
-	margin:5% 0%;
+	margin: 5% 0%;
 }
 
 /* Main Content */
 
+p {
+	letter-spacing: 1px;
+}
+
 .box {
 	display: inline-block;
-	width: 25%;
-	margin: 0 3%;
+	width: 47%;
+	margin:  1%;
+	
 }
 
 .topContent {
-	margin: 0 5%;
+	margin: 0 10% 0 10%;
+	border-top: 1px solid black;
+	width: 80%;
+	padding: 0 0 25px;
 }
 
 .middle-img {
 	display: block;
-	margin: 5% 25%;
+	margin: 0 10.8%;
+	width: 75%;
 }
 
 .bottomContent {
-	
+	margin: 0 10%;
+	width: 80%;
+	border-bottom: 1px solid black;
+	padding: 0 0 30px;
 }
 
+.bottomContent div {
+	width: 29%;
+}
 
+.contact {
+	margin: 3% 10%;
+}
+
+h3 {
+	font-family: "Bangers", sans-serif;
+}
 
 /* Footer Styles */
-
+footer {
+	text-align: center;
+	margin: 5% 0 10%;
+}
